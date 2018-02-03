@@ -1,0 +1,13 @@
+RewriteEngine on
+DirectoryIndex index.html index.php index.htm parking-page.html
+
+RewriteCond %{HTTP_REFERER} !^http://nymh.moe/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://nymh.moe$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.nymh.moe/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.nymh.moe$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://nymh.moe/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://nymh.moe$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.nymh.moe/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.nymh.moe$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+
