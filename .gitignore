@@ -1,0 +1,23 @@
+#NPM Stuff
+node_modules
+.npm
+package-lock.json
+#---------------
+.node_repl_history
+
+#logs
+npm-debug.log
+logs
+*.log
+
+#remove npm output pack
+*.tgz
+
+#visual studio
+obj
+bin
+#I use multiple code editors like a cuck
+
+#website files
+css/start
+php
