@@ -1,0 +1,88 @@
+.animepage{
+    max-width: 1200px;
+    margin: 0 auto;
+    /*display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;*/
+    
+}
+.animepage_box{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-row-gap: 8rem;
+    position: relative;
+    /*max-width: 220px;*/
+    max-height: 300px;
+}
+.animepage_box_info{
+    position: absolute;
+    /*top:10px;*/
+    margin-top:-2%;
+    
+    /*color: #fff;*/
+    overflow: auto;
+    width: 200px;
+    font-size: 2rem;
+    text-align: center;
+    transition: all .2s;
+}
+@-moz-document url-prefix(){
+    .animepage_box_info{
+        margin-top:-8%;
+    }
+}
+.animepage_box_info h3{
+    background-color: #4d4d4d70;
+    padding-bottom: 5px;
+    border: solid #4d4d4dc7 2px;
+    border-top: none;
+}
+.animepage_info_block{
+    display: block;
+}
+.animepage_info_block h3{
+    display: inline;
+}
+h3 a{
+    /*color: rgba(34, 34, 34, 0.5) !important;*/
+    text-decoration: none !important;
+    /*margin-left: 0% !important;
+    transition: margin-left .22s !important;*/
+    text-align: center;
+    transition: all .4s;
+}
+h3 a:hover{
+    color: #fff !important;
+    text-decoration: none !important;
+    /*margin-left: 2% !important;*/
+    text-align: center;
+}
+
+.animepageitem{
+    /*max-width: 230px;
+    max-height: 350px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+   background: hsla(155, 0%, 12%, 0.5);
+    border: solid #2e2e2e 1px;
+    text-align: center;
+    font-size: 3rem;
+    color: hsla(197, 100%, 29%, 0);
+    transition: color .5s;
+    position: relative;
+    z-index: 2;*/
+}
+/*.animepage img{
+    max-width: 220px;
+    max-height: 350px;
+    object-fit: cover;
+}
+*/
+.animepage_cover_cont{
+    width: 200px;
+    height: 300px;
+    margin-top: 20px;
+}
+.animepage_anime_info{
+    z-index: 1;
+}

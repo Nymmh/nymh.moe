@@ -1,18 +1,22 @@
 <?php
+	require('php/usersession.php');
 	require('php/head.php');
-	require('php/mainnav.php');
-	require('php/background.php');
+	require('php/mainnavEdit.php');
+	require('php/extrabackground.php');
 	require('php/dropdownscript.php');
 	require('php/AniDBdatabase.php');
 	require('php/anidbstuff.php');
+	
 ?>
 <style>
 	.flex-center{
 		display: flex;
 		justify-content: center;
+		z-index: 2;
 	}
 	.magnetInput{
-		max-width: 25%;
+		margin-top: 1rem;
+		min-width: 25rem;
 		border-radius: 25px;
 		margin-right: 1.5rem;
 	}

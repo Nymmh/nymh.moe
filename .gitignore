@@ -10,6 +10,7 @@ package.json
 npm-debug.log
 logs
 *.log
+error_log
 
 #remove npm output pack
 *.tgz
@@ -18,6 +19,7 @@ logs
 obj
 bin
 #I use multiple code editors like a cuck
+.vscode
 
 #website files
 css/start
@@ -26,3 +28,13 @@ extra
 photoshop
 .htaccess
 ignore
+nodejs
+nolewds
+assets
+login.php
+register.php
+*.txt
+profile.php
+registeredit.php
+api.nymh.moe
+edits.nymh.moe

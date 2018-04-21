@@ -1,0 +1,15 @@
+<?php
+	require('php/usersession.php');
+	require('php/head.php');
+	require('php/mainnavEdit.php');
+	require('php/extrabackground.php');
+	require('php/dropdownscript.php');
+	require('php/weebhubdb.php');
+	if($_GET['Genre']){
+		require('php/weebhubpage.php');
+	}elseif($_GET['Anime']){
+		require('php/weebhubanime.php');
+	}else{
+		require('php/weebhubgenre.php');
+	}
+?>
