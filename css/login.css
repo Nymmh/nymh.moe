@@ -52,6 +52,19 @@
 .loginbutton:hover{
     background: #414141d8;
 }
+.forgotbutton{
+    margin-top: 20px;
+    padding: 12px 12px;
+    background: #727272a6;
+    transition: .22s;
+    border: none;
+    color: #e6e6e6a6;
+    font-weight: bold;
+    font-size: 19px;
+}
+.forgotbutton:hover{
+    background: #414141d8;
+}
 h2{
     background-color: rgb(39, 39, 39);
     color:#e6e6e6a6;

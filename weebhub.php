@@ -9,6 +9,16 @@
 		require('php/weebhubpage.php');
 	}elseif($_GET['Anime']){
 		require('php/weebhubanime.php');
+	}elseif($_GET['studio']){
+		require('studio.php');
+	}elseif($_GET['source']){
+		require('php/weebhubsource.php');
+	}elseif($_GET['type']){
+		require('php/weebhubtype.php');
+	}elseif($_GET['year']){
+		require('php/weebhubyear.php');
+	}elseif($_GET['episodes']){
+		require('php/weebhubep.php');
 	}else{
 		require('php/weebhubgenre.php');
 	}

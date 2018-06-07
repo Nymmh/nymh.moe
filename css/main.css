@@ -67,3 +67,9 @@
       margin-bottom: 10px;
     }
   }
+  footer{
+    position: absolute;
+    bottom: 0%;
+    padding-bottom: 15px;
+    left: 50%;
+  }

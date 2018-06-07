@@ -29,3 +29,7 @@
     padding-top: 8px;
     padding-bottom: 8px;
 }
+.videoplayer{
+    position: relative;
+    left: 8%;
+}

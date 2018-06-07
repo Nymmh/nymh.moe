@@ -3,7 +3,7 @@
 	require('php/head.php');
 	require('php/mainnavEdit.php');
 	require('php/background.php');
-	
+	require('php/footer.php');
 ?>
 <main>
 </main>

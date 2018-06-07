@@ -86,3 +86,6 @@ h3 a:hover{
 .animepage_anime_info{
     z-index: 1;
 }
+.anime_info_title{
+    overflow: hidden;
+}
