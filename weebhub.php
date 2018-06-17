@@ -19,6 +19,8 @@
 		require('php/weebhubyear.php');
 	}elseif($_GET['episodes']){
 		require('php/weebhubep.php');
+	}elseif($_GET['add']){
+		require('php/isData.php');
 	}else{
 		require('php/weebhubgenre.php');
 	}
